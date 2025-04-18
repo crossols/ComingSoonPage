@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+  
+  .brand {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .tagline {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #aaa;
+    margin-bottom: 30px;
+  }
+  
+  .coming-soon {
+    font-size: 1.1rem;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    color: #555;
+  }
+  
